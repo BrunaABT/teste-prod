@@ -1,0 +1,349 @@
+@import url("../../styles/global.css");
+
+/* PORTRAIT */
+
+/* phones */
+@media screen and (orientation: portrait) and (max-width: 415px) {
+  .video-container {
+    width: 80vw;
+    margin-top: 20vh;
+    margin-bottom: 5vh;
+    border-radius: 2vw;
+  }
+
+  .control {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 85vw;
+    max-width: 1000px;
+  }
+
+  .home-btn,
+  .backward-btn,
+  .forward-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 11vw;
+    max-width: 70px;
+    height: 11vw;
+    max-height: 70px;
+    border: 0.1vw solid rgba(251, 251, 251, 255);
+    border-radius: 10vw;
+    cursor: pointer;
+    background-color: rgba(24, 24, 24, 255);
+  }
+
+  .full-screen-btn {
+    width: 40vw;
+    max-width: 300px;
+    height: 11vw;
+    max-height: 70px;
+    border: 0.1vw solid rgba(251, 251, 251, 255);
+    border-radius: 10vw;
+    cursor: pointer;
+    background-color: black;
+    font-size: 3.2vw;
+    color: white;
+  }
+
+  .backward-btn {
+    margin-right: 1.5vw;
+  }
+
+  .forward-backward {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .home-icon {
+    width: 5vw;
+    max-width: 80px;
+  }
+
+  .forward-icon,
+  .backward-icon {
+    width: 3vw;
+    max-width: 90px;
+  }
+}
+
+/* tablets */
+@media screen and (orientation: portrait) and (min-width: 415px) {
+  .video-container {
+    width: 80vmin;
+    margin-top: 20vmin;
+    margin-bottom: 7vmin;
+    border-radius: 1vmin;
+  }
+
+  .control {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    max-width: 1000px;
+  }
+
+  .home-btn,
+  .backward-btn,
+  .forward-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 9vw;
+    max-width: 70px;
+    height: 9vw;
+    max-height: 70px;
+    border: 0.1vw solid rgba(251, 251, 251, 255);
+    border-radius: 10vw;
+    cursor: pointer;
+    background-color: rgba(24, 24, 24, 255);
+  }
+
+  .full-screen-btn {
+    width: 45vw;
+    max-width: 500px;
+    height: 9vw;
+    max-height: 70px;
+    border: 0.1vw solid rgba(251, 251, 251, 255);
+    border-radius: 10vw;
+    cursor: pointer;
+    background-color: black;
+    font-size: 2vw;
+    color: white;
+  }
+
+  .backward-btn {
+    margin-right: 1vw;
+  }
+
+  .forward-backward {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .home-icon {
+    width: 4vw;
+    max-width: 80px;
+  }
+
+  .forward-icon,
+  .backward-icon {
+    width: 2.3vw;
+    max-width: 90px;
+  }
+}
+
+/* LANDSCAPE */
+
+/* phones */
+@media screen and (orientation: landscape) and (max-height: 541px) {
+  .video-container {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    width: 100vh;
+    border-radius: 2vw;
+  }
+
+  .control {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    max-width: 1000px;
+  }
+
+  .home-btn,
+  .backward-btn,
+  .forward-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7vw;
+    max-width: 50px;
+    height: 7vw;
+    max-height: 50px;
+    border: 0.1vw solid rgba(251, 251, 251, 255);
+    border-radius: 10vw;
+    cursor: pointer;
+    background-color: rgba(24, 24, 24, 255);
+  }
+
+  .full-screen-btn {
+    width: 40vw;
+    max-width: 450px;
+    height: 7vw;
+    max-height: 50px;
+    border: 0.1vw solid rgba(251, 251, 251, 255);
+    border-radius: 10vw;
+    cursor: pointer;
+    background-color: black;
+    font-size: 1.75vw;
+    color: white;
+  }
+
+  .backward-btn {
+    margin-right: 1vw;
+  }
+
+  .forward-backward {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .home-icon {
+    width: 4vw;
+    max-width: 80px;
+  }
+
+  .forward-icon,
+  .backward-icon {
+    width: 2.3vw;
+    max-width: 90px;
+  }
+}
+
+/* desktops and tablets */
+@media screen and (orientation: landscape) and (min-width: 922px) and (min-height: 541px) {
+  .video-container {
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+    width: 80vw;
+    max-width: 1000px;
+    border-radius: 2vw;
+  }
+
+  .control {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    max-width: 1000px;
+  }
+
+  .home-btn,
+  .backward-btn,
+  .forward-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7vw;
+    max-width: 70px;
+    height: 7vw;
+    max-height: 70px;
+    border: 0.1vw solid rgba(251, 251, 251, 255);
+    border-radius: 10vw;
+    cursor: pointer;
+    background-color: rgba(24, 24, 24, 255);
+  }
+
+  .full-screen-btn {
+    width: 40vw;
+    max-width: 450px;
+    height: 7vw;
+    max-height: 70px;
+    border: 0.1vw solid rgba(251, 251, 251, 255);
+    border-radius: 10vw;
+    cursor: pointer;
+    background-color: black;
+    font-size: 1.75vw;
+    color: white;
+  }
+
+  .backward-btn {
+    margin-right: 1vw;
+  }
+
+  .forward-backward {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .home-icon {
+    width: 4vw;
+    max-width: 80px;
+  }
+
+  .forward-icon,
+  .backward-icon {
+    width: 2.3vw;
+    max-width: 90px;
+  }
+}
+
+/* large desktops and tablets */
+@media screen and (orientation: landscape) and (min-width: 1200px) {
+  .video-container {
+    width: 80vw;
+    max-width: 1000px;
+    margin-top: 4vh;
+    margin-bottom: 5vh;
+    border-radius: 2vw;
+  }
+
+  .control {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    max-width: 1000px;
+  }
+
+  .home-btn,
+  .backward-btn,
+  .forward-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7vw;
+    max-width: 80px;
+    height: 7vw;
+    max-height: 80px;
+    border: 0.1vw solid rgba(251, 251, 251, 255);
+    border-radius: 10vw;
+    background-color: rgba(24, 24, 24, 255);
+    cursor: pointer;
+  }
+
+  .full-screen-btn {
+    width: 60vw;
+    max-width: 700px;
+    height: 7vw;
+    max-height: 80px;
+    border: 0.1vw solid rgba(251, 251, 251, 255);
+    border-radius: 10vw;
+    background-color: black;
+    font-size: 1.75vw;
+    color: white;
+    cursor: pointer;
+  }
+
+  .backward-btn {
+    margin-right: 1vw;
+  }
+
+  .forward-backward {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .home-icon {
+    width: 4vw;
+    max-width: 50px;
+  }
+
+  .forward-icon,
+  .backward-icon {
+    width: 2.3vw;
+    max-width: 30px;
+  }
+}

@@ -1,0 +1,349 @@
+@import url("../../styles/global.css");
+
+/* PORTRAIT */
+
+/* phones */
+@media screen and (orientation: portrait) and (max-width: 415px) {
+  .disclaimer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 4vw 1.5vh 4vw;
+    margin-top: 7vh;
+    margin-bottom: 4vh;
+    border-radius: 3vw;
+    box-shadow: 0px 0px 150px 0.5px #00000050;
+    background-color: rgba(17, 17, 17, 255);
+  }
+
+  .disclaimer-title {
+    font-size: 5vw;
+    margin-bottom: 3vh;
+  }
+
+  .disclaimer-txt {
+    width: 80vw;
+    margin-bottom: 3vh;
+    font-size: 2.75vw;
+    font-weight: 200;
+    color: white;
+  }
+
+  .control {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 85vw;
+    max-width: 1000px;
+  }
+
+  .home-btn,
+  .backward-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 11vw;
+    max-width: 70px;
+    height: 11vw;
+    max-height: 70px;
+    border: 0.1vw solid rgba(251, 251, 251, 255);
+    border-radius: 10vw;
+    background-color: rgba(24, 24, 24, 255);
+    cursor: pointer;
+  }
+
+  .backward-btn {
+    margin-right: 1.5vw;
+  }
+
+  .home-icon {
+    width: 5vw;
+    max-width: 80px;
+  }
+
+  .backward-icon {
+    width: 3vw;
+    max-width: 90px;
+  }
+}
+
+/* tablets */
+@media screen and (orientation: portrait) and (min-width: 415px) {
+  .disclaimer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 4vw 1.5vh 4vw;
+    margin-top: 7vh;
+    margin-bottom: 4vh;
+    border-radius: 3vmin;
+    box-shadow: 0px 0px 150px 0.5px #00000050;
+    background-color: rgba(17, 17, 17, 255);
+  }
+
+  .disclaimer-title {
+    font-size: 5vw;
+    margin-bottom: 3vh;
+  }
+
+  .disclaimer-txt {
+    width: 80vw;
+    margin-bottom: 3vh;
+    font-size: 2.75vw;
+    font-weight: 200;
+    color: white;
+  }
+
+  .control {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    max-width: 1000px;
+  }
+
+  .home-btn,
+  .backward-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 9vw;
+    max-width: 70px;
+    height: 9vw;
+    max-height: 70px;
+    border: 0.1vw solid rgba(251, 251, 251, 255);
+    border-radius: 10vw;
+    background-color: rgba(24, 24, 24, 255);
+    cursor: pointer;
+  }
+
+  .backward-btn {
+    margin-right: 1vw;
+  }
+
+  .home-icon {
+    width: 4vw;
+    max-width: 80px;
+  }
+
+  .backward-icon {
+    width: 2.3vw;
+    max-width: 90px;
+  }
+}
+
+/* LANDSCAPE */
+
+/* phones */
+@media screen and (orientation: landscape) and (max-height: 541px) {
+  .disclaimer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 4vw 1.5vh 4vw;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    border-radius: 3vw;
+    box-shadow: 0px 0px 150px 0.5px #00000050;
+    background-color: rgba(17, 17, 17, 255);
+  }
+
+  .disclaimer-title {
+    font-size: 3vw;
+    margin-bottom: 3vh;
+  }
+
+  .disclaimer-txt {
+    width: 80vw;
+    margin-bottom: 3vh;
+    font-size: 3.25vh;
+    font-weight: 200;
+    color: white;
+  }
+
+  .control {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 70vw;
+    max-width: 1000px;
+  }
+
+  .home-btn,
+  .backward-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7vw;
+    max-width: 50px;
+    height: 7vw;
+    max-height: 50px;
+    border: 0.1vw solid rgba(251, 251, 251, 255);
+    border-radius: 10vw;
+    background-color: rgba(24, 24, 24, 255);
+    cursor: pointer;
+  }
+
+  .backward-btn {
+    margin-right: 1vw;
+  }
+
+  .home-icon {
+    width: 4vw;
+    max-width: 80px;
+  }
+
+  .backward-icon {
+    width: 2.3vw;
+    max-width: 90px;
+  }
+}
+
+/* desktops and tablets */
+@media screen and (orientation: landscape) and (min-width: 922px) and (min-height: 541px) {
+  .disclaimer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 4vw 1.5vh 4vw;
+    margin-top: 2vh;
+    margin-bottom: 4vh;
+    border-radius: 3vw;
+    box-shadow: 0px 0px 150px 0.5px #00000050;
+    background-color: rgba(17, 17, 17, 255);
+  }
+
+  .disclaimer-title {
+    font-size: 4vw;
+    margin-bottom: 3vh;
+  }
+
+  .disclaimer-txt {
+    width: 80vw;
+    margin-bottom: 3vh;
+    font-size: 2.5vh;
+    font-weight: 200;
+    color: white;
+  }
+
+  .control {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    max-width: 1000px;
+  }
+
+  .home-btn,
+  .backward-btn,
+  .forward-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7vw;
+    max-width: 70px;
+    height: 7vw;
+    max-height: 70px;
+    border: 0.1vw solid rgba(251, 251, 251, 255);
+    border-radius: 10vw;
+    background-color: rgba(24, 24, 24, 255);
+    cursor: pointer;
+  }
+
+  .backward-btn {
+    margin-right: 1vw;
+  }
+
+  .forward-backward {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .home-icon {
+    width: 4vw;
+    max-width: 80px;
+  }
+
+  .forward-icon,
+  .backward-icon {
+    width: 2.3vw;
+    max-width: 90px;
+  }
+}
+
+/* large desktops and tablets */
+@media screen and (orientation: landscape) and (min-width: 1200px) {
+  .disclaimer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5vh 4vw 1.5vh 4vw;
+    margin-top: 5vh;
+    margin-bottom: 4vh;
+    border-radius: 3vw;
+    box-shadow: 0px 0px 150px 0.5px #00000050;
+    background-color: rgba(17, 17, 17, 255);
+  }
+
+  .disclaimer-title {
+    font-size: 3.5vw;
+    margin-bottom: 3vh;
+  }
+
+  .disclaimer-txt {
+    width: 80vw;
+    margin-bottom: 3vh;
+    font-size: 2.5vh;
+    font-weight: 200;
+    color: white;
+  }
+
+  .control {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 90vw;
+    max-width: 1000px;
+  }
+
+  .home-btn,
+  .backward-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 7vw;
+    max-width: 80px;
+    height: 7vw;
+    max-height: 80px;
+    border: 0.1vw solid rgba(251, 251, 251, 255);
+    border-radius: 10vw;
+    background-color: rgba(24, 24, 24, 255);
+    cursor: pointer;
+  }
+
+  .backward-btn {
+    margin-right: 1vw;
+  }
+
+  .forward-backward {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .home-icon {
+    width: 4vw;
+    max-width: 50px;
+  }
+
+  .backward-icon {
+    width: 2.3vw;
+    max-width: 30px;
+  }
+}
